@@ -11,7 +11,7 @@
    color: black;
  }
 /* Top nav links Global */
- .nav{
+ #hero .nav{
    display: flex;
    width: 84%;
    margin: auto;
