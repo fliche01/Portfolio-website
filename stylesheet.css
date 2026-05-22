@@ -11,7 +11,13 @@
    color: black;
  }
 /* Top nav links Global */
- #hero .nav{
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+nav{
    display: flex;
    width: 84%;
    margin: auto;
@@ -19,17 +25,17 @@
    align-items: center;
    justify-content: space-between;
  }
- .nav ul li{
+ nav ul li{
    display: inline-block;
    list-style: none;
    margin: 10px 20px;
  }
- .nav ul li a{
+ nav ul li a{
    text-decoration: none;
    color: black;
    font-weight: bold;
  }
- .nav ul li a:hover{
+ nav ul li a:hover{
    color: orange;
  }
 *  Global */
