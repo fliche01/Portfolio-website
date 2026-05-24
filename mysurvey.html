@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mysurvey.css">
+    <title>freeCodeCamp Survey Form</title>    
+    <h1 id="title">freecodecamp project #1 Survey</h1>
+  </header>
+  <body>
+    <p id="description" class="established">Taking for taking the time to feedback this website</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+        <label id="email-label">Emal <input id="email" type="email" placeholder="Enter your email" required></label>
+        <label id="number-label">Age <small>(optional)</small> <input id="number" type="number" min="1" max="100"placeholder="Age"></label>
+        <label> Which option best describe your skill
+          <select id="dropdown">
+          <option value="">Select current role </option>
+          <option value="1">Newbie </option>
+          <option value="2">Knowledgeable </option>
+          <option value="3">Master coder </option>
+          </select>
+        </label>
+      </fieldset>
+       <fieldset>
+        <label>What would you like to learn? <small>(Check all that apply)</small> </label>
+        <label><input type="checkbox" class="inline" value="front-end" /> HTML & CSS </label>
+        <label><input type="checkbox" class="inline" value="back-end" /> Javascript </label>
+        <label><input type="checkbox" class="inline" value="data-visualization" />Python </label>
+      </fieldset>
+      <fieldset>
+        <label> Any comments?
+          <textarea rows="5" cols="50" placeholder="Enter your comment here..."></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label> Would you recommend freeCodeCamp to a friend?</label>
+          <label><input type="radio" class="inline" name="attribute" value="1" checked /> Definitely</label>
+          <label><input type="radio" class="inline" name="attribute" value="2" /> Maybe</label>
+          <label><input type="radio" class="inline" name="attribute" value="3" /> Not sure</label>
+      </fieldset>
+      <fieldset>
+        <input type="submit" value="Submit" id="submit" />
+      </fieldset>
+     </form>
+  </body>
+</html>
