@@ -66,7 +66,7 @@ containerTab {
 }
 
 * Experience (Resume)*/
-able{
+.table{
  padding: 5px;
  margin: 10px;
  margin-left: 100px;
@@ -75,18 +75,18 @@ able{
  border: 1px solid black;
 }
 
-able caption{
+.table caption{
  font-size: 30px;
  text-align: center;
  margin-bottom: 10px;
 }
 
-able h2{
+.table h2{
  font-size: 20px;
  padding: 25px;
 }
 
-able td{
+.table td{
  font-size: 20px;
  padding: 25px;
 }
@@ -133,7 +133,7 @@ closebtn {
    align-items: center;   
 }
 
-detel a:hover{
+.detel a:hover{
  color: orange;
 }
 
@@ -168,13 +168,13 @@ detel a:hover{
    padding: 10px 0;
    font-size: 15px;
    }
-box p{ 
+.box p{ 
  color: #777;
  font-size: 14px;
  line-height: 1.6;
 }
 
-btn{
+.btn{
  color: #fff;
  border: none;
  outline: none;
@@ -186,10 +186,10 @@ btn{
  display: inline-block;
  text-decoration: none;
  
-btn:hover{
+.btn:hover{
  letter-spacing: 1px;
   
-box:hover{
+.box:hover{
  transform: scale(1.03);
  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
  }
@@ -228,7 +228,7 @@ box:hover{
    padding: 10px 0;
    font-size: 16px;
    }
-boxes p{ 
+.boxes p{ 
  color: #777;
  font-size: 14px;
  line-height: 1.6;
